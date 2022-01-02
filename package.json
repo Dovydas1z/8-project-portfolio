@@ -1,0 +1,24 @@
+{
+  "name": "8-project-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3000 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dovydas1z/8-project-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dovydas1z/8-project-portfolio/issues"
+  },
+  "homepage": "https://github.com/Dovydas1z/8-project-portfolio#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
