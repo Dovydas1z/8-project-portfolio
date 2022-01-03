@@ -2,10 +2,141 @@
 @import "../base/base.css";
 @import "../base/layout.css";
 
-/* 3rd party */
+/* 3rd-party */
 @import "../3rd-party/font-awesome.min.css";
 
 /* components */
 @import "../components/button.css";
+@import "../components/header.css";
 
-/* custom style goes below this comment */
+/* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
+
+/* header start */
+/* header end */
+
+/* hero start */
+.hero {
+  min-height: 100vh;
+  justify-content: center;
+  background-image: url(https://shreethemes.in/cristino/layouts/images/home/01.png);
+  background-size: cover;
+  background-position: center;
+}
+.hero .col-12 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.hero .before-title {
+  font-weight: bold;
+}
+.hero .hero-title {
+  font-size: 44px;
+  color: var(--primary-color);
+}
+.hero .hero-description {
+  margin: 0.5em 0;
+  font-family: Roboto, sans-serif;
+  font-size: 17px;
+  line-height: 2em;
+  color: #777;
+}
+.hero .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+/* hero end */
+
+/* about me start */
+
+.photo-border {
+  --border-width: 15px;
+  position: relative;
+  max-height: 550px;
+}
+.photo-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: var(--border-width) solid #eee;
+  border-radius: calc(var(--border-width) / 2);
+}
+.my-photo {
+  width: 100%;
+  max-height: inherit;
+  position: relative;
+  object-fit: contain;
+  object-position: left;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.about-me > .profession {
+  font-weight: 600;
+}
+.about-me > img {
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .about-me > h2 {
+    margin-top: 1em;
+  }
+}
+@media (min-width: 768px) {
+  .about > .row {
+    display: flex;
+    align-items: center;
+  }
+  .about-me {
+    padding-left: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .about-me {
+    padding-left: 50px;
+  }
+}
+
+/* about me end */
+
+/* hobbies start */
+/* hobbies end */
+
+/* achievements start */
+/* achievements end */
+
+/* services start */
+/* services end */
+
+/* work start */
+/* work end */
+
+/* expertise start */
+/* expertise end */
+
+/* portfolio start */
+/* portfolio end */
+
+/* testimonials start */
+/* testimonials end */
+
+/* blog start */
+/* blog end */
+
+/* freelancer start */
+/* freelancer end */
+
+/* contact me start */
+/* contact me end */
+
+/* footer start */
+/* footer end */
